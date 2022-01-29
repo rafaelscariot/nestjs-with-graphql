@@ -11,7 +11,6 @@ import { UsersService } from './users/users.service';
     }),
     UsersModule,
   ],
-  controllers: [],
   providers: [UsersResolver, UsersService],
 })
 export class AppModule {}
